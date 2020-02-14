@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        body {
+            background: url('img.jpg');
+            background-size: cover;
+            font-family: 'Montserrat', Helvetica, sans-serif;
+            display: flex;
+            flex-direction: row;
+            align-items: bottom;
+            justify-content: center;
+            height: 100vh;
+        }
+
+
+        p {
+            max-width: 560px;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 2;
+            color: #222;
+        }
+
+        button {
+            background: rgb(155, 28, 28);
+            border-radius: 100px;
+            padding: 20px 60px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.45em;
+            margin: 0 15px;
+        }
+
+        #count {
+            border: 2px solid black;
+            background-color: rgb(155, 28, 28);
+            background-position: -10px;
+            color: #fff;
+            width: 48%;
+            margin-top: 480px;
+            margin-left: -170px;
+            padding-left: 350px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class='left'>
+            <button class="order">Order</button>
+            <button class="order">Order</button>
+        </div>
+        <div class='right'>
+            <button class="order-now">Order Now</button>
+            <button class="order-now">Order Now</button>
+        </div>
+        <br>
+        <p id='count'>0</p>
+    </div>
+
+    <script type="text/javascript" src="nedelja3_2_narucivanje.js"></script>
+</body>
+
+</html>

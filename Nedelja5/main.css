@@ -1,0 +1,155 @@
+/* header start */
+
+header.jumbotron.jumbotron-fluid {
+    color: rgb(56, 55, 55);
+    background-color: rgb(167,167,175);
+    height: 240px;
+}
+
+div#content {
+    text-align: center;
+    margin-top: -50px;
+}
+
+#title {
+    font-size: 1.4em;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+#sum {
+    font-size: 3em;
+    color: whitesmoke;
+    font-weight: 330;
+}
+
+p#income {
+    font-size: 1em;
+    max-width: 350px;
+    height: 40px;
+    background-color: rgb(40,185,180);
+    margin-left: 380px;
+    padding-left: 7px;
+}
+
+#income {
+    text-align: left;
+    padding-top: 7px;
+}
+
+p#expense {
+    font-size: 1em;
+    max-width: 350px;
+    height: 40px;
+    background-color: rgb(254,81,74);
+    margin-left: 380px;
+    padding-left: 7px;
+
+}
+
+#expense {
+    text-align: left;
+    padding-top: 7px;
+}
+
+/* header end */
+
+
+
+/* section one start */
+
+section#input-section.bg-light.input-value {
+    margin-top: -30px;
+    height: 70px;
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+
+form#form  {
+    padding-top: 11px;
+    text-align: center;
+}
+
+select {
+    width: 60px;
+    height: 45px;
+}
+
+select#select {
+    width: 90px;
+    height: 45px;
+    font-weight: 500;
+    color: rgb(105, 104, 104);
+}
+
+input {
+    width: 230px;
+    height: 45px;
+}
+
+button {
+    width: 80px;
+    height: 45px;
+}
+
+input#desc-input {
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+input#money-input {
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+button.btn.btn-outline-dark#add-btn {
+    margin-top: -6px;
+}
+
+/* section one end */
+
+
+
+/* section two start */
+
+#result {
+    margin-top: 30px;
+}
+div#income-section {
+    width: 49.8%;
+    height: 300px;
+    flex: 1 0 0;
+    display: inline-block;
+ }
+
+div#expense-section {
+    width: 49.8%;
+    height: 300px;
+    flex: 1 0 0;
+    display: inline-block;
+ }
+
+ #h3-prihodi {
+    border-bottom: 1px solid rgb(206, 202, 202);
+    color: rgb(40,185,180);
+    font-weight: 450;
+    font-size: 1.5em;
+ }
+
+
+ #h3-rashodi {
+    border-bottom: 1px solid rgb(206, 202, 202);
+    color: rgb(254,81,74);
+    font-weight: 450;
+    font-size: 1.5em;
+ }
+
+/* section two end */
+
+/* button.btn-delete {
+    width: "25px";
+    height: "25px";
+    border-radius: "60%";
+    float: "right";
+    margin-top: "-30px";
+} */
+

@@ -1,4 +1,4 @@
-import { getPastLaunches } from '../services/spacex_service'
+import { getPastLaunches } from '../services/spacex_service';
 import Launch from './launch';
 //Add filters
 const LaunchList = () => {

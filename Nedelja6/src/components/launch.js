@@ -6,6 +6,7 @@ const Launch = (launch) => {
         launch_date_utc,
         links: { mission_patch }
     } = launch;
+    
     const div = document.createElement('div');
     div.className = 'launch';
 

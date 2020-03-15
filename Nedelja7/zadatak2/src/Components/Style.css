@@ -1,0 +1,28 @@
+body {
+    background-color:#f9f4f4;
+}
+.card {
+    margin-left: 450px;
+    margin-top: 30px;
+    width: 30%;
+    height: 90vh;
+    background-color: #251e3e;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.description {
+    margin-top: 30px;
+    width: 60%;
+    height: 40vh;
+    background-color: #e7d3d3;
+}
+
+.emoji {
+    width: 60%;
+    height: 40vh;
+    background-color: #dec3c3;
+}
+

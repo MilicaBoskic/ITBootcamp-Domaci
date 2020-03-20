@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Wrapper from './Wrapper';
+import Contacts from './Contacts';
 
 function App() {
   return (
-    <Wrapper></Wrapper>
+    <Contacts></Contacts>
   );
 }
 
